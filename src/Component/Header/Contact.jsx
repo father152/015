@@ -9,4 +9,4 @@ function Contact() {
     </div>
   )
 }
-export {Contact}l
+export {Contact}
