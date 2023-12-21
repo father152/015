@@ -5,8 +5,8 @@ function Contact() {
     <div>
 
     Contact
-    
+
     </div>
   )
 }
-export {Contact}
+export {Contact}l
