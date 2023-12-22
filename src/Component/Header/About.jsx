@@ -1,10 +1,14 @@
 import React from 'react'
 
+
+
 function About() {
+ 
+  
   return (
-    <div>
-    About
-    </div>
+   <div className="about">
+   <h2>About As</h2>
+   </div>
   )
 }
 export {About}
