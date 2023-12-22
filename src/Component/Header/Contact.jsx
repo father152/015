@@ -1,4 +1,6 @@
 import React from "react";
+import "./contact.css"
+
 
 function Contact() {
   const [open, setOpen] = React.useState(false);
@@ -16,13 +18,13 @@ function Contact() {
         {open ? (
           <ul className="menu">
             <li className="menu-item">
-              <button>Past</button>
+              Past
             </li>
             <li className="menu-item">
-              <button>History</button>
+              History
             </li>
             <li className="menu-item">
-              <button>Future</button>
+              Future
             </li>
           </ul>
         ) : null}
@@ -30,7 +32,7 @@ function Contact() {
 
 
 
-      
+
     </div>
   );
 }
