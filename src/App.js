@@ -1,6 +1,6 @@
 import { Layout } from "./Component/Layout/Layout";
 import { Routes, Route } from "react-router-dom";
-import { About } from "./Component/Header/About";
+import { About } from "./Component/Header/About.jsx";
 import { Home } from "./Component/Home/Home";
 import { History } from "./Component/Header/History.jsx";
 import { Portfolio } from "./Component/Header/Portfolio.jsx";

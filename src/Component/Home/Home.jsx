@@ -23,11 +23,11 @@ function Home() {
           our type choices. By setting some useful constraints to aid our type
           selection, we can also develop a critical eye for analyzing type along
           the way.
-          <img src={house} alt='' classNAme='house'></img>
+          <img src={house} alt='' className='house'></img>
         </p>
         <h2>Second House</h2>
         <p className='second'>
-        <img src={house2} alt='' classNAme='house'></img>
+        <img src={house2} alt='' className='house'></img>
           When you have some text, how can you choose a typeface? Many
           people—professional designers included—go through an app’s font menu
           until we find one we like. But the aim of this Google Fonts Knowledge
@@ -45,7 +45,7 @@ function Home() {
           our type choices. By setting some useful constraints to aid our type
           selection, we can also develop a critical eye for analyzing type along
           the way.
-          <img src={house3} alt='' classNAme='house'></img>
+          <img src={house3} alt='' className='house'></img>
         </p>
       </div>
       <div className="rigthpart">

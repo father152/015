@@ -1,54 +1,29 @@
 .header {
-   display: flex;
-   width: 100%;
-   height: 100px;
-   background-color: rgb(39, 89, 121);
- 
-   
-}
-.header-container{
-    width: 90%;
-    display: flex;
-    margin: 0 auto;
-    
-}
-.list-header{
   display: flex;
+  width: 100%;
+  height: 150px;
+}
+.list-header {
+  display: flex;
+  width: 90%;
  
-  
 }
-.logo{
-  width: 30%;  
+.list-header ul {
+  display: flex;
+   margin: 0 auto;
+   align-items: center;
 }
-.logo img {
-    width: 90px;
-    border-radius: 50%;
-    opacity: 0.7;
-   }
-   .dropdown button{
-    color: aqua;
-   font-size: 20px;
-   font-family: "Indie Flower", cursive;
-   background-color: transparent;
-   padding: 35px 40px;
-   cursor: pointer;
-   
-   }
-
-   .menu li{
-    list-style: none;
-    font-size: 25px;
-    font-family: "Indie Flower", cursive;
-    color: aqua;
-    cursor: pointer;
-    
-
-   }
-   .menu li:hover{
-       color: yellow;
-   }
-   .dropdown ul{
-    background-color: transparent;
-    margin-top: -10px;
-
-   }
+.list-header li {
+  list-style: none;
+}
+.list-header li a {
+  text-decoration: none;
+  color: aqua;
+  font-size: 20px;
+  font-family: "Indie Flower", cursive;
+margin-left: 150px;
+}
+.list-header li a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
