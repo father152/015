@@ -5,6 +5,8 @@ import facebook from "../images/free-icon-facebook-174848.png";
 import twitter from "../images/free-icon-twitter-4494477.png";
 import { Link } from "react-router-dom";
 
+
+
 function Footer() {
   return (
     <div className="footer">
@@ -28,6 +30,7 @@ function Footer() {
           </li>
         </ul>
       </div>
+      
     </div>
   );
 }
